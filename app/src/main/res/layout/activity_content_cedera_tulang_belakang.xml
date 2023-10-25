@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contentofcategory.tulangdanotot.ContentTulangDanOtot.ContentCederaTulangBelakang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/cederatulangbelakang"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Cedera Tulang Belakang"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Mungkin memiliki beberapa atau semua hal berikut ini: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Nyeri leher/tulang belakang \n\n 2. Pembengkakan di lokasi cedera \n\n 3. Memar \n\n 4. Bentuk/lekukan punggung yang tidak alami \n\n 5. Kontrol anggota tubuh yang buruk \n\n 6. Sensasi yang berkurang/tidak biasa \n\n 7. Kesulitan bernapas \n\n 8. Hilangnya kontrol usus/kandung kemih \n\n 9. Kelembutan pada kulit di atas tulang belakang \n\n 10. Hilangnya sensasi pada tungkai \n\n 11. Sejarah jatuh \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Hubungi PHC 119 untuk ambulans \n\n 2. Sangga kepala dan leher korban pada posisi saat ditemukan \n\n 3. Jangan pindahkan korban kecuali: \n\n \t a. Mereka berada dalam bahaya \n \t b. Mereka tidak responsif dan Anda harus menempatkannya dalam posisi pemulihan \n \t c. Anda perlu mempertahankan jalan napas terbuka \n\n 4. Yakinkan korban \n\n 5. Mintalah bantuan orang lain untuk meletakkan mantel yang sudah digulung di kedua sisi leher. Lanjutkan menopang kepala dan leher korban saat hal ini dilakukan \n\n  Jangan hentikan dukungan ini sampai layanan darurat mengambil alih \n\n  6. Pantau korban dan terus sangga kepala dan lehernya \n\n 7. Jika perlu, bersiaplah untuk melakukannya: \n\n \t a. Pertahankan jalan napas terbuka \n \t b. Pindahkan korban ke posisi pemulihan \n \t c. Menyadarkan \n"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

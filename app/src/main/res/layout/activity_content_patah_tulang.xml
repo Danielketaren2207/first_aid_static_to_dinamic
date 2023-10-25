@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contentofcategory.kepala.ContentKepala.ContentPatahTulang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/patahtulang"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Patah Tulang"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Mungkin memiliki beberapa atau semua hal berikut ini: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Riwayat cedera \n\n 2. Luka/memar di kepala \n\n 3. Area lembut / celupkan di kulit kepala \n\n 4. Tingkat respons yang rendah \n\n 5. Kebocoran cairan hidung/telinga \n\n 6.Distorsi kepala/wajah \n\n 7. Mudah tersinggung, kebingungan \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Pantau korban secara teratur. Mengawasi tingkat respons jika memburuk \n\n 2. Setelah mereka pulih, mintalah orang dewasa yang bertanggung jawab untuk menjaga mereka \n\n 3. Jika mereka sedang bermain olahraga saat kejadian, jangan biarkan mereka kembali bermain sampai mereka telah sepenuhnya dinilai oleh praktisi medis \n\n 4. Carilah bantuan medis jika salah satu dari hal berikut ini berlaku: \n\n a.Meningkatkan rasa kantuk \n b.Sakit kepala yang terus-menerus \n c.Kesulitan dalam berbicara atau berjalan \n d.Muntah \n e.Penglihatan ganda \n f.Kejang \n g.Lebih dari 65 tahun \n h.Mereka minum obat anti-pembekuan darah \n i.Mereka mabuk dengan obat-obatan atau alkohol \n j.Tidak ada orang dewasa yang bertanggung jawab untuk menjaga mereka. \n"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contentofcategory.keracunan.ContentKeracunan.ContentTerkenaKulit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/terkenakulit"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Terkena Kulit"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Cobalah untuk mencari tahu apa yang telah bersentuhan dengan korban. Simpanlah semua wadah yang berisi informasi tentang racun \n\n 2. Jangan menyentuh area yang terkena dengan tangan kosong \n\n 3. Siram sisa racun dengan air mengalir setidaknya selama 20 menit \n\n Lepaskan pakaian yang terkontaminasi dengan hati-hati saat Anda melakukan ini. Hindari percikan \n\n 4. Jika korban tidak merespons, buka jalan napas mereka dan periksa pernapasan mereka \n\n \t a. Jika mereka bernapas, letakkan mereka dalam posisi pemulihan \n \t b. Jika mereka tidak bernapas, bersiaplah untuk melakukan resusitasi. Hubungi PHC 119 untuk memanggil ambulans \n\n 5. Saat ambulans tiba, sampaikan rincian racunnya \n"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

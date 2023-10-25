@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_havebg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_havebg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstAid"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.contentofcategory.tulangdanotot.ContentTulangDanOtot.ContentCederaTulangBelakang"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.tulangdanotot.ContentTulangDanOtot.ContentKeseleo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.tulangdanotot.ContentTulangDanOtot.ContentPatahTulang"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.pendarahan.ContentPendarahan.ContentLukaBakar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.pendarahan.ContentPendarahan.ContentPendarahanKecil"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.ContentKepala.ContentKompresi"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.pendarahan.ContentPendarahan.ContentPendarahanParah"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.pendarahan.ContentPendarahan.ContentPeringatanKebersihan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.keracunan.ContentKeracunan.ContentObatObatan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.keracunan.ContentKeracunan.ContentTerkenaKulit"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.keracunan.ContentKeracunan.ContentTertelan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.ContentKepala.ContentPenyitaanKetidakhadiran"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.ContentKepala.ContentKejangKejang"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.ContentKepala.ContentPatahTulang"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.ContentKepala.ContentTidakResponsif"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.ContentKepala.ContentGegarOtak"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.tulangdanotot.CategoryContentTulangDanOtot"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.tenggorokan.CategoryContentTenggorokan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.pernafasan.CategoryContentPernafasan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.pendarahan.CategoryContentPendarahan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.keracunan.CategoryContentKeracunan"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.kepala.CategoryContentKepala"
+            android:exported="false" />
+        <activity
+            android:name=".ui.contentofcategory.jantung.CategoryContentJantung"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FirstAid.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

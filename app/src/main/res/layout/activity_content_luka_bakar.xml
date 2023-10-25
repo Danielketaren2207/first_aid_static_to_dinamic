@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contentofcategory.pendarahan.ContentPendarahan.ContentLukaBakar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/lukabakar"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Luka Bakar"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Informasi Penting Saat Merawat"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Jangan lepaskan apa pun yang menempel pada luka bakar \n\n 2. Jangan mendinginkan korban secara berlebihan karena berisiko menurunkan suhu tubuh mereka terlalu banyak. \n\n 3. Jangan gunakan losion, salep, atau krim \n\n 4. Jangan gunakan pembalut berperekat \n\n 5. Jangan sampai lecet. \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Informasi Umum"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Jangan menyentuh area yang terbakar \n\n 2. Biarkan pakaian yang menempel pada luka bakar tetap di tempatnya kecuali jika terkontaminasi bahan kimia \n\n 3. Biarkan lecet tetap utuh \n\n 4. Rendam luka bakar di bawah air dingin atau air hangat yang mengalir selama minimal 20 menit atau sampai rasa sakitnya berkurang. Saat Anda melakukan hal ini, lepaskan perhiasan atau pakaian lain yang membatasi. \n\n 5. Tutup dengan balutan steril atau film dapur \n\n 6. Jika perlu, hubungi PHC 119 untuk memanggil ambulans \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan Wajah atau Mulut Korban"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Periksa bahaya \n\n 2. Hubungi 999/112 untuk ambulans dan beri tahu mereka bahwa Anda mencurigai adanya luka bakar pada saluran napas \n\n 3. Pertahankan jalan napas, longgarkan pakaian di sekitar leher korban jika diperlukan \n\n 4. Berikan korban es atau seteguk air dingin untuk mengurangi rasa sakit dan pembengkakan \n\n 5. Pantau korban secara terus menerus karena setiap cedera dapat menyebabkan kesulitan bernapas. \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan Tubuh Jenazah"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Siram luka bakar dengan air dingin atau air hangat yang mengalir sampai ambulans tiba. \n\n 2. Saat Anda menuangkan air dingin ke atas luka bakar, lepaskan pakaian yang terkontaminasi dengan hati-hati. \n\n 3. Hindari memercikkan air yang terkontaminasi pada Anda atau korban. \n\n 4. Biarkan lecet tetap utuh \n\n 5. Tutup dengan balutan steril \n\n 6. Hubungi PHC 119 untuk ambulans \n"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan Mata Jenazah"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Lakukan irigasi dengan air dingin atau air hangat yang mengalir sampai ambulans tiba. Termasuk kedua sisi kelopak mata saat mengairi. \n\n 2. Minta korban untuk melepas lensa kontak  jika bisa. \n\n 3. Pastikan air mengalir menjauhi wajah. \n"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

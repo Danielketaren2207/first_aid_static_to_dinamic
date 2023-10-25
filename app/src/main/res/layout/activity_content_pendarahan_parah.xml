@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contentofcategory.pendarahan.ContentPendarahan.ContentPendarahanParah">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/pendarahanparah"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Pendarahan Parah"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="1. Mengontrol pendarahan dengan memberikan tekanan langsung pada luka \n\n 2. Hubungi PHC 119 untuk ambulans \n\n 3. Pasang balutan dengan kuat untuk mengontrol pendarahan. Berhati-hatilah agar tidak terlalu ketat sehingga membatasi sirkulasi. \n\n 4. Cegah/tangani syok dengan membaringkan korban dengan kaki terangkat \n\n \t a. Jika korban mengalami cedera kepala, baringkan korban dan angkat sedikit kepala dan bahunya \n\n 5. Jika darah keluar melalui pembalut, lepaskan dan tekan kembali dengan pembalut atau pembalut baru untuk mengontrol perdarahan. \n\n  Setelah pendarahan terkendali, kencangkan dengan perban, ikat simpul di atas luka untuk menjaga tekanan. \n\n  6.Sangga area yang cedera dengan posisi terangkat. \n"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

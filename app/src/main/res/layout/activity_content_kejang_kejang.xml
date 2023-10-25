@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contentofcategory.kepala.ContentKepala.ContentKejangKejang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/kejangkejang"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Kejang Kejang"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Mungkin memiliki beberapa atau semua hal berikut ini: "
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text=" 1. Kaku dan jatuh ke tanah \n\n 2. Mengejutkan \n\n 3. Tubuh yang kaku \n\n 4.  Kesulitan bernafas atau tidak bernafas \n\n 5. Rahang terkatup \n\n 6. Hilangnya kontrol usus / kandung kemih \n\n  7. Air liur yang berlebihan dari mulut\n\n  8. Mereka rileks, pernafasan menjadi normal dan pulih dalam beberapa menit\n\n 9. Mereka mungkin tidak menyadari keadaan sekitar mereka \n\n 10. Merasa sangat lelah \n\n 11. Mereka bisa jatuh ke dalam tidur nyenyak"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Perawatan"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text=" 1. Kosongkan ruang di sekitar korban. Lindungi mereka dengan melapisi benda tajam atau berbahaya dengan mantel atau bantal. Catat waktu kejang dimulai \n\n 2. Longgarkan pakaian yang ketat di sekitar leher, dada, dan pinggang mereka \n\n \t a. Jangan memasukkan apa pun ke dalam mulut korban \n \t b. Jangan mencoba untuk memaksa atau menjaga rahang mereka tetap terbuka \n \t c. Jangan mencoba untuk menahan mereka \n\n 3. Ketika kejang berhenti, buka jalan napas dan periksa pernapasan korban: \n\n \t a. Jika mereka bernapas, letakkan mereka dalam posisi pemulihan \n \t b. Jika mereka tidak bernapas, bersiaplah untuk melakukan resusitasi \n\n 4. Tetap bersama korban. Catat durasi kejang dan periksa pernapasan dan denyut nadi secara teratur. \n\n 5. Hubungi PHC 119 untuk meminta ambulans jika: \n\n \t a. Korban mengalami kejang terus menerus \n \t b. Cedera yang berkelanjutan \n \t c. Korban menjadi tidak responsif \n \t d. Ini adalah kejang pertama korban \n \t e. Jika kejang berlangsung selama lebih dari lima menit \n \t f. Jika korban tidak sepenuhnya pulih."
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
