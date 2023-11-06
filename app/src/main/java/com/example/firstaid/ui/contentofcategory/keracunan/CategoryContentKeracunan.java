@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.example.firstaid.R;
@@ -20,6 +21,7 @@ public class CategoryContentKeracunan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_content_keracunan);
         getSupportActionBar().setTitle("Kategori Keracunan");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         View obatObatan = findViewById(R.id.layoutContentObatObatan);
         View terkenaKulit = findViewById(R.id.layoutContentTerkenaKulit);
@@ -49,5 +51,14 @@ public class CategoryContentKeracunan extends AppCompatActivity {
             }
         });
 
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id == android.R.id.home){
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

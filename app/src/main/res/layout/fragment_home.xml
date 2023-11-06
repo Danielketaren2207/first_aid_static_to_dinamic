@@ -22,14 +22,14 @@
                 android:id="@+id/constraintLayout"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:background="@drawable/background_home">
+                android:background="@drawable/background_home_2">
 
                 <ImageView
                     android:id="@+id/myImageView"
                     android:layout_width="383dp"
                     android:layout_height="300dp"
-                    android:background="#000000"
                     android:alpha="0.4"
+                    android:background="#000000"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

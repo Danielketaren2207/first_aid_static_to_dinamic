@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.example.firstaid.R;
@@ -20,6 +21,7 @@ public class CategoryContentTulangDanOtot extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_content_tulang_dan_otot);
         getSupportActionBar().setTitle("Kategori Tulang dan Otot");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         View cederaTulangBelakang = findViewById(R.id.layoutContentCederaTulangBelakang);
         View keseleo = findViewById(R.id.layoutContentKeseleo);
@@ -49,5 +51,14 @@ public class CategoryContentTulangDanOtot extends AppCompatActivity {
             }
         });
 
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id == android.R.id.home){
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

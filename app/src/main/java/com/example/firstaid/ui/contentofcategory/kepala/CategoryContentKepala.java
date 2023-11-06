@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.example.firstaid.R;
@@ -23,6 +24,7 @@ public class CategoryContentKepala extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_content_kepala);
         getSupportActionBar().setTitle("Kategori Kepala");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         View gegarOtak = findViewById(R.id.layoutContentGegarOtak);
         View tidakResponsif = findViewById(R.id.layoutContentTidakResponsif);
@@ -78,5 +80,14 @@ public class CategoryContentKepala extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id == android.R.id.home){
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
